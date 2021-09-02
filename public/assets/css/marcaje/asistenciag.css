@@ -1,0 +1,147 @@
+.logo{
+	width:329px;
+	height:132px;
+    left:0;
+    background-image:url('../../../imagenes/Logo_Covetel.png'); 
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.reloj{
+
+	font-size:40px;
+	margin-top: 30px;
+	margin-left: 20px;
+
+}
+
+.contp{
+
+	
+	background-color: #2b3277;
+	margin-top: -10px;
+	height: 80%;
+}
+.dataC{
+	font-size: 25px;
+    background-color: /*rgb(4, 20, 136)*/ #4e6984;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: italic;
+   /* box-shadow: 2px 0px 20px 1px rgba(0,0,0,0.75);*/
+
+}
+.contm{
+
+	height: 80%;
+	margin-top:70px;
+	-webkit-box-shadow: 2px 0px 20px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 0px 20px 1px rgba(0,0,0,0.75);
+	box-shadow: 2px 0px 20px 1px rgba(0,0,0,0.75);
+
+}
+
+.default{
+	/*margin-top: 18px;*/
+	height: 92%;
+	width: 100%;
+  /*  border-radius: 10px;*/
+    background-color: /*rgba(74, 91, 210, 0.42)*/#4e6984;
+   /* -webkit-box-shadow: 2px 0px 20px 1px rgba(0,0,0,0.75);*/
+  /*  -moz-box-shadow: 2px 0px 20px 1px rgba(0,0,0,0.75);*/
+   /* box-shadow: 2px 0px 20px 1px rgba(0,0,0,0.75);*/
+}
+
+.foto{
+
+	height:50%;
+	width:70%;
+	-webkit-box-shadow: 2px 0px 20px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 0px 20px 1px rgba(0,0,0,0.75);
+	box-shadow: 2px 0px 20px 1px rgba(0,0,0,0.75);
+	margin-top:30px;
+}
+
+.datos{
+
+	margin-top:20px;
+	font-size:20px;
+
+}
+.titulo{
+
+	margin-top:20px; font-size:50px;
+	text-shadow: 3px 1px 2px rgba(150, 150, 149, 1);
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #141972;
+	font-size: 45px;
+	padding: 5;
+	font-weight: bold;
+}
+
+.tsub{
+	margin-top:10px;
+	font-size:40px
+}
+
+.tex{
+
+	margin-top:50px; 
+	font-size:30px
+}
+body {
+
+  /* Ubicación de la imagen */
+
+  background-image: url(imagenes/background2.jpg);
+
+ 
+
+  /* Nos aseguramos que la imagen de fondo este centrada vertical y
+
+    horizontalmente en todo momento */
+
+  background-position: center center;
+
+ 
+
+  /* La imagen de fondo no se repite */
+
+  background-repeat: no-repeat;
+
+ 
+
+  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+
+     la altura del contenido supere la altura de la imagen. */
+
+  background-attachment: fixed;
+
+ 
+
+  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana
+
+     del navegador */
+
+  background-size: cover;
+
+ 
+
+  /* Fijamos un color de fondo para que se muestre mientras se está
+
+    cargando la imagen de fondo o si hay problemas para cargarla  */
+
+  background-color: #464646;
+
+}
+
+.panelm {
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
